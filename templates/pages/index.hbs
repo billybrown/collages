@@ -1,0 +1,19 @@
+---
+
+shortcode: home
+
+---
+
+	<article class="ArtistStatement">
+	    <h1>Collages</h1>
+        <p>After a five year lull completely void of art making, the priorities with my recent studio practice have been simple by necessity; remove any and all hurdles to creating work. My collages are made from magazines sent to my apartment - a free, readily accessible material to use as a raw library of textures, pattern and color. The resulting abstract, active floating shapes have come from experimenting and exploring this material.</p>
+	    <p>Work by <a target="_blank" href="http://b.illbrown.com">Bill Brown</a></p>
+	</article>
+
+	<ul class="u-noList WorkList">
+		{{#each site.work}}
+	        <li>
+	        	{{> Work }}
+	        </li>
+	    {{/each}} 
+	</ul>

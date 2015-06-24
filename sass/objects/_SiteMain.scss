@@ -5,16 +5,22 @@
 
 
 .SiteMain {
-	padding-top: $cspace_small;
-	margin-bottom: $cspace_small * 1.5;
+	padding: 10vh 0;
+}
 
-	@include mq($from: elementary) {
-		padding-top: $cspace_medium;
-		margin-bottom: $cspace_medium * 1.5;
+.ArtistStatement {
+	margin: 0 auto 10vh;
+	padding: 0 10vw;
+	max-width: 600px;
+
+	@include mq($from: college) {
+		width: 33.333%;
+		padding: 0 15px;
 	}
 
-	@include mq($from: highschool) {
-		padding-top: $cspace_large;
-		margin-bottom: $cspace_large * 1.5;
+	h1 {
+		border-bottom: 3px solid $text;
+		display: inline-block;
+		padding-bottom: 7px;
 	}
 }

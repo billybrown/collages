@@ -10,9 +10,10 @@
 
 $roboto: 'Roboto';
 $railway: 'Raleway';
+$opensans: 'Open Sans';
 
-$sans-serif : $roboto, $helvetica;
-$titles: $railway, $sans-serif;
+$sans-serif : $opensans, $helvetica;
+$titles: $railway, $opensans, $helvetica;
 
 
 

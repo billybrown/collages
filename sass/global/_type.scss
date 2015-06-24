@@ -69,7 +69,7 @@
 	font: 700 30px/34px $titles;
 
 	@include mq($from: middleschool) {
-		font-size: 46px;
+		font-size: 256px;
 		line-height: 53px;
 	}
 }

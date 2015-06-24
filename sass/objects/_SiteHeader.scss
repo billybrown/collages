@@ -5,5 +5,18 @@
 
 
 .SiteHeader {
-	
+	background: transparent url('../../img/large.jpg') no-repeat center center;
+	background-size: cover;
+	height: 90vh;
+	position: relative;
+
+	.SiteHeader__textGroup {
+		@extend %u-absoluteCenter;
+	}
+
+	h1 {
+		@extend %u-giantTitle;
+		color: #fff;
+		display: none;
+	}
 }

@@ -5,17 +5,27 @@
 
 
 .Work {
-	display: flex;
 	position: relative;
-	margin: 0 10px 20px;
+	max-width: 440px;
+	margin: 0 auto;
+	
+	@include mq($from: college) {
+		display: flex;
+		margin: 0 10px 20px;
+		max-width: none;
+	}
 }
 
 .Work__infoGroup {
-	@extend %u-absoluteBottomLeft;
-	left: 10px;
-	background: rgba(0,0,0,.25);
+	background: $text;
+	@include u-absoluteBottomLeft(college);
 	color: #fff;
 	padding: 10px 13px;
+
+	@include mq($from: college) {
+			background: rgba(0,0,0,.25);
+		left: 10px;
+	}
 }
 
 .Work__title {
@@ -31,61 +41,10 @@
 }
 
 .Work__pic {
-	background: transparent center center no-repeat;
-	background-size: cover;
-	height: 400px;
-	flex: 1;
-	margin: 0 10px;
-}
+	margin-bottom: 20px;
 
-
-
-
-/////////////////////////////////////-+++-
-// Individual styles
-
-.Work--1 {
-	.Work__pic--1 { background-image: url('../../img/untitled1_1.jpg');}
-	.Work__pic--2 { background-image: url('../../img/untitled1_2.jpg');}
-	.Work__pic--3 { background-image: url('../../img/untitled1_3.jpg');}
-}
-.Work--2 {
-	.Work__pic--1 { background-image: url('../../img/untitled2_1.jpg');}
-	.Work__pic--2 { background-image: url('../../img/untitled2_2.jpg');}
-	.Work__pic--3 { background-image: url('../../img/untitled2_3.jpg');}
-}
-.Work--3 {
-	.Work__pic--1 { background-image: url('../../img/untitled3_1.jpg');}
-	.Work__pic--2 { background-image: url('../../img/untitled3_2.jpg');}
-	.Work__pic--3 { background-image: url('../../img/untitled3_3.jpg');}
-}
-.Work--4 {
-	.Work__pic--1 { background-image: url('../../img/untitled4_1.jpg');}
-	.Work__pic--2 { background-image: url('../../img/untitled4_2.jpg');}
-	.Work__pic--3 { background-image: url('../../img/untitled4_3.jpg');}
-}
-.Work--5 {
-	.Work__pic--1 { background-image: url('../../img/untitled5_1.jpg');}
-	.Work__pic--2 { background-image: url('../../img/untitled5_2.jpg');}
-	.Work__pic--3 { background-image: url('../../img/untitled5_3.jpg');}
-}
-.Work--6 {
-	.Work__pic--1 { background-image: url('../../img/untitled-diptych1_1.jpg');}
-	.Work__pic--2 { background-image: url('../../img/untitled-diptych1_2.jpg');}
-	.Work__pic--3 { background-image: url('../../img/untitled-diptych1_3.jpg');}
-}
-.Work--7 {
-	.Work__pic--1 { background-image: url('../../img/untitled-diptych2_1.jpg');}
-	.Work__pic--2 { background-image: url('../../img/untitled-diptych2_2.jpg');}
-	.Work__pic--3 { background-image: url('../../img/untitled-diptych2_3.jpg');}
-}
-.Work--8 {
-	.Work__pic--1 { background-image: url('../../img/untitled-triptych_1.jpg');}
-	.Work__pic--2 { background-image: url('../../img/untitled-triptych_2.jpg');}
-	.Work__pic--3 { background-image: url('../../img/untitled-triptych_3.jpg');}
-}
-.Work--9 {
-	.Work__pic--1 { background-image: url('../../img/untitled-series_1.jpg');}
-	.Work__pic--2 { background-image: url('../../img/untitled-series_2.jpg');}
-	.Work__pic--3 { background-image: url('../../img/untitled-series_3.jpg');}
+	@include mq($from: college) {
+		margin: 0 10px;
+		flex: 1;
+	}
 }

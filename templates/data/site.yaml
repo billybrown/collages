@@ -1,0 +1,46 @@
+work:
+  - title: Untitled 1
+    material: "Paper, found paper, glue"
+    image1: untitled1_1.jpg
+    image2: untitled1_2.jpg
+    image3: untitled1_3.jpg
+  - title: Untitled 2
+    material: "Paper, found paper, glue"
+    image1: untitled2_1.jpg
+    image2: untitled2_2.jpg
+    image3: untitled2_3.jpg
+  - title: Untitled 3
+    material: "Paper, found paper, glue"
+    image1: untitled3_1.jpg
+    image2: untitled3_2.jpg
+    image3: untitled3_3.jpg
+  - title: Untitled 4
+    material: "Paper, found paper, glue"
+    image1: untitled4_1.jpg
+    image2: untitled4_2.jpg
+    image3: untitled4_3.jpg
+  - title: Untitled 5
+    material: "Paper, found paper, glue"
+    image1: untitled5_1.jpg
+    image2: untitled5_2.jpg
+    image3: untitled5_3.jpg
+  - title: Untitled 6
+    material: "Paper, found paper, glue"
+    image1: untitled-diptych1_1.jpg
+    image2: untitled-diptych1_2.jpg
+    image3: untitled-diptych1_3.jpg
+  - title: Untitled 7
+    material: "Paper, found paper, glue"
+    image1: untitled-diptych2_1.jpg
+    image2: untitled-diptych2_2.jpg
+    image3: untitled-diptych2_3.jpg
+  - title: Untitled 8
+    material: "Paper, found paper, glue"
+    image1: untitled-triptych_1.jpg
+    image2: untitled-triptych_2.jpg
+    image3: untitled-triptych_3.jpg
+  - title: Untitled 9
+    material: "Paper, found paper, glue"
+    image1: untitled-series_1.jpg
+    image2: untitled-series_2.jpg
+    image3: untitled-series_3.jpg

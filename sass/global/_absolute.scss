@@ -129,13 +129,13 @@
     }
 }
 
-@mixin u-absoluteBottomRight($media) {
+@mixin u-absoluteBottomLeft($media) {
     position: relative;
     
     @include mq($from: $media) {
         position: absolute;
         bottom: 0;
-        right: 0;
+        left: 0;
     }
 }
 
